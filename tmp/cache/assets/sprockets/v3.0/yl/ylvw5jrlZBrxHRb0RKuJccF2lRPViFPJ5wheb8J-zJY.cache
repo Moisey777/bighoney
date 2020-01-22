@@ -1,0 +1,34 @@
+{:uriI"‡file://app/assets/javascripts/locales/de.json?type=application/json&id=8ab0dd345db39e9224f065b708e84fc1b1a0f1913d2f1a642186574a7da934d7:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/locales/de.json;T:	nameI"locales/de;T:logical_pathI"locales/de.json;T:content_typeI"application/json;T:sourceI"è{
+  "please_wait": "Bitte warten...",
+  "validation_messages": {
+    "accept": "Die Bilddatei muss entweder im GIF-, JPG- oder PNG-Format vorliegen.",
+    "creditcard": "Bitte eine gÃ¼ltige Kreditkartennummer eingeben.",
+    "date": "Bitte ein gÃ¼ltiges Datum eingeben.",
+    "dateISO": "Bitte ein gÃ¼ltiges Datum (ISO) eingeben.",
+    "digits": "Bitte nur Ziffern eingeben.",
+    "email": "Bitte eine gÃ¼ltige E-Mail-Adresse angeben.",
+    "equalTo": "Bitte denselben Wert nochmals eingeben.",
+    "max": "Bitte einen Wert kleiner als oder gleich {0} eingeben.",
+    "maxlength": "Bitte nicht mehr als {0} Zeichen eingeben.",
+    "min": "Bitte einen Wert grÃ¶ÃŸer als oder gleich {0} eingeben.",
+    "minlength": "Bitte mindestens {0} Zeichen eingeben.",
+    "number": "Bitte eine gÃ¼ltige Zahl eingeben.",
+    "range": "Bitte einen gÃ¼ltigen Wert zwischen {0} und {1} eingeben.",
+    "rangelength": "Bitte einen Wert zwischen {0} und {1} Zeichen LÃ¤nge eingeben.",
+    "remote": "Bitte dieses Feld korrigieren.",
+    "required": "Dieses Feld ist erforderlich.",
+    "url": "Bitte eine gÃ¼ltige URL eingeben.",
+    "address_validator": "Der Standort wurde nicht gefunden.",
+    "money": "Du musst einen gÃ¼ltigen monetÃ¤ren Wert eintragen.",
+    "night_selected": "Du musst zumindest eine Nacht auswÃ¤hlen.",
+    "availability_range": "Der gewÃ¤hlte Bereich enthÃ¤lt Daten die nicht VerfÃ¼gbar sind",
+    "min_bound": "Bitte trage einen Wert ein, der kleiner ist als der HÃ¶chstwert ({0})",
+    "max_bound": "Bitte trage einen Wert ein, der grÃ¶ÃŸer ist als der Mindestwert ({0})",
+    "number_no_decimals": "Bitte trage eine ganze Zahl ein",
+    "number_decimals": "Bitte trage eine gÃ¼ltige Zahl mit einem Punkt (.) oder Komma (,) als Dezimaltrennzeichen ein"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"9file-digest://app/assets/javascripts/locales/de.json;TTF:charsetI"
+utf-8;F:digest"%F1ÑĞ¨„4qı(Ë×Ü_±~ğò±³E~l"6¬H:lengthiè:dependencies_digest"%‡ú„óeä4AßdíÒ&í”|*B¾áëÙó®:idI"E8ab0dd345db39e9224f065b708e84fc1b1a0f1913d2f1a642186574a7da934d7;F:
+mtimel+9"^

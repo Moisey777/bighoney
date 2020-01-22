@@ -1,0 +1,34 @@
+{:uriI"äfile://app/assets/javascripts/locales/sl-SI.json?type=application/json&id=dfb98d158fdeb682f27b21303f6998abf98184e6574a5f3d7cf24ae07a26e65b:ET:load_pathI"app/assets/javascripts;T:filenameI".app/assets/javascripts/locales/sl-SI.json;T:	nameI"locales/sl-SI;T:logical_pathI"locales/sl-SI.json;T:content_typeI"application/json;T:sourceI"{
+  "please_wait": "Prosim poƒçakajte...",
+  "validation_messages": {
+    "accept": "Slika mora biti v GIF, JPG ali PNG formatu.",
+    "creditcard": "Vnesite veljavno ≈°tevilko kreditne kartice.",
+    "date": "Vnesite veljaven datum.",
+    "dateISO": "Vnesite veljaven datum (ISO).",
+    "digits": "Vnesite le ≈°tevilke.",
+    "email": "Vnesite veljaven e-naslov.",
+    "equalTo": "Ponovno vnesite isto vrednost.",
+    "max": "Prosimo vnesite vrednost manj≈°o ali enako od {0}.",
+    "maxlength": "Prosimo vnesite najveƒç {0} znakov.",
+    "min": "Prosimo vnesite vrednost veƒçjo ali enako {0}.",
+    "minlength": "Prosimo vnesite najmanj {0} znakov.",
+    "number": "Prosimo vnesite veljavno ≈°tevilko.",
+    "range": "Prosimo vnesite vrednost med {0} in {1}.",
+    "rangelength": "Prosimo vnesite vrednost med {0} in {1} znakov dolgo.",
+    "remote": "Prosimo popravite ta polje.",
+    "required": "To polje je obvezno.",
+    "url": "Prosimo vnesite veljaven URL.",
+    "address_validator": "Lokacija ni bila najdena.",
+    "money": "Potrebno je vstaviti veljavno denarno vrednost.",
+    "night_selected": "Izbrati morate vsaj eno noƒç",
+    "availability_range": "Izbrani obseg vkljuƒçuje datume, ki niso na voljo",
+    "min_bound": "Prosimo vnesite vrednost manj≈°o od najveƒçje vrednosti ({0})",
+    "max_bound": "Prosimo vnesite vrednost veƒçjo od najmanj≈°e vrednosti ({0})",
+    "number_no_decimals": "Prosimo vnesite celo ≈°tevilko",
+    "number_decimals": "Prosimo vnesite veljavno ≈°tevilko z piko (.) ali vejico (,), kot decimalno loƒçilo"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"<file-digest://app/assets/javascripts/locales/sl-SI.json;TTF:charsetI"
+utf-8;F:digest"%˜u]®"[üÙMÛœCn¸6hÒgè{âV‘ê:lengthi:dependencies_digest"%z»LáßÉà˜7&°˘ÀÑ≥ôØëãfö§¶ªIÓKU:idI"Edfb98d158fdeb682f27b21303f6998abf98184e6574a5f3d7cf24ae07a26e65b;F:
+mtimel+9"^

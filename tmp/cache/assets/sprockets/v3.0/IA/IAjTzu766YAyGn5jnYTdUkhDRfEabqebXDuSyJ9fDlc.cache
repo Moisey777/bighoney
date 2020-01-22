@@ -1,0 +1,35 @@
+{:uriI"‡file://app/assets/javascripts/locales/et.json?type=application/json&id=ff773279f635a9d00960ad001900b0540e3c80b6c8c73ec44743081f72c67b05:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/locales/et.json;T:	nameI"locales/et;T:logical_pathI"locales/et.json;T:content_typeI"application/json;T:sourceI"d{
+  "please_wait": "Palun oota ...",
+  "validation_messages": {
+    "accept": "Fail peab olema Ã¼hes jÃ¤rgnevatest formaatidest: GIF, JPG vÃµi PNG.",
+    "creditcard": "Palun sisestage kehtiv pangakaart.",
+    "date": "Palun sisestage kehtiv kuupÃ¤ev.",
+    "dateISO": "Palun sisestage kehtiv kuupÃ¤ev (ISO).",
+    "digits": "Palun sisestage ainult numbrid.",
+    "email": "Palun sisestage kehtiv e-posti aadress.",
+    "equalTo": "Palun sisestage sama vÃ¤Ã¤rtus uuesti.",
+    "max": "Palun sisestage vÃ¤Ã¤rtus mis on vÃ¤iksem vÃµi vÃµrdne {0}.",
+    "maxlength": "Palun Ã¤rge sisestage rohkem kui {0} tÃ¤hemÃ¤rki.",
+    "min": "Palun sisestage vÃ¤Ã¤rtus mis on suurem vÃµi vÃµrdne {0}.",
+    "minlength": "Palun sisestage vÃ¤hemalt {0} tÃ¤hemÃ¤rki.",
+    "number": "Palun sisestage kehtiv number.",
+    "range": "Palun sisestage vÃ¤Ã¤rtus vahemikus {0} ja {1}.",
+    "rangelength": "Palun sisestage tÃ¤hemÃ¤rke vahemikus {0} ja {1}.",
+    "remote": "Palun parandage see vÃ¤li.",
+    "required": "See vÃ¤li on nÃµutav.",
+    "url": "Palun sisestage kehtiv URL.",
+    "address_validator": "Seda asukohta ei leitud.",
+    "money": "Peate sisestama kehtiva rahalise vÃ¤Ã¤rtuse.",
+    "night_selected": "Peate valima vÃ¤hemalt Ã¼he Ã¶Ã¶",
+    "availability_range": "Osa valitud vahemiku kuupÃ¤evi pole saadaval",
+    "min_bound": "Palun sisestage maksimaalsest vÃ¤iksem vÃ¤Ã¤rtus ({0})",
+    "max_bound": "Palun sisestage minimaalsest suurem vÃ¤Ã¤rtus ({0})",
+    "number_no_decimals": "Palun sisestage tÃ¤ielik number",
+    "number_decimals": "Palun sisestage kehtiv number kasutades punkti (.) vÃµi koma (,) kÃ¼mnendkoha eraldajana"
+  }
+};T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"9file-digest://app/assets/javascripts/locales/et.json;TTF:charsetI"
+utf-8;F:digest"%‹ã
+1ÃTlóî«‰ Ğö¬1á0ıébqm:lengthid:dependencies_digest"%øV_wr£ªÉ\îS¨¡A¯Äü[S7[X?Š:idI"Eff773279f635a9d00960ad001900b0540e3c80b6c8c73ec44743081f72c67b05;F:
+mtimel+9"^
