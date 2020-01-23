@@ -136,64 +136,64 @@
       }
     },
     "branding": {
-      "create_own": "Want to create your own online marketplace website like %{service_name}? %{learn_more}.",
-      "learn_more": "Learn more",
-      "powered_by": "%{service_name} is powered by the %{sharetribe_link} marketplace platform."
+      "create_own": "רוצה ליצור מרקטפלייס משלך כמו‎%{service_name}‎ ? \n‎%{learn_more}‎ ",
+      "learn_more": "למד עוד",
+      "powered_by": "‎%{service_name}‎  פועל בחסות ‎%{sharetribe_link}‎  מרקטפלייס"
     },
     "listing_card": {
-      "add_picture": "Add picture",
-      "no_picture": "No picture"
+      "add_picture": "הוספת תמונה",
+      "no_picture": "אין תמונה"
     },
     "listings": {
-      "confirm_discarding_unsaved_availability_changes_explanation": "You have unsaved changes to your availability information. If you proceed, these changes will be lost.",
-      "confirm_discarding_unsaved_availability_changes_question": "Are you sure you want to discard your changes?",
+      "confirm_discarding_unsaved_availability_changes_explanation": "יש לך שינויים שלא נשמרו, אם תמשיך ללא שמירה, השינויים יאבדו.",
+      "confirm_discarding_unsaved_availability_changes_question": "האם אתה בטוח שתרצה לזנוח את השינויים?",
       "edit_availability_header": "תפוסה",
       "edit_listing_availability": "עדכן תפוסה",
       "errors": {
         "availability": {
-          "saving_failed": "We're not able to save availability changes. Try to reload the page.",
-          "something_went_wrong": "We're not able to display availability information. Try to reload the page."
+          "saving_failed": "לא הצלחנו לשמור את השינויים בזמינות, אנא נסה לרענן את העמוד.",
+          "something_went_wrong": "לא הצלחנו להציג זמינו, אנא נסה לרען את העמוד."
         },
         "working_hours": {
-          "covers": "covers",
-          "overlaps": "overlaps",
-          "required": "required"
+          "covers": "קאבר",
+          "overlaps": "חפיפה",
+          "required": "דרוש"
         }
       },
       "pricing_units": {
         "day": "יום",
         "hour": "שעה",
         "month": "חודש",
-        "night": "night",
-        "piece": "piece",
+        "night": "לילה",
+        "piece": "יחידה",
         "week": "שבוע"
       },
-      "save_and_close_availability_editing": "Save and close",
+      "save_and_close_availability_editing": "שמור וסגור",
       "working_hours": {
-        "add_another_time_slot": "+ Add another time slot",
-        "default_schedule": "Default schedule",
-        "end_time": "End time",
-        "i_am_available_on": "I'm available on...",
-        "save": "Save",
-        "start_time": "Start time"
+        "add_another_time_slot": "+הוסף מועד",
+        "default_schedule": "לו''ז ברירת מחדל",
+        "end_time": "מועד סיום",
+        "i_am_available_on": "אני זמין ב...",
+        "save": "שמור",
+        "start_time": "מועד התחלה"
       }
     },
     "no_listings": {
-      "sorry": "Sorry, no listings could be found for your search criteria.",
-      "try_other_search_terms": "Maybe try other search terms?"
+      "sorry": "מצטערים, לא מצאנו מודעות באפיון החיפוש שלך.",
+      "try_other_search_terms": "אולי ננסה חיפוש אחר?"
     },
     "search": {
-      "page": "Page",
-      "page_of_pages": "of %{total_number_of_pages}"
+      "page": "עמוד",
+      "page_of_pages": "מתוך‎%{total_number_of_pages}‎ "
     },
     "topbar": {
-      "admin_dashboard": "ניהול אדמיין",
+      "admin_dashboard": "פאנל מנהל",
       "inbox": "הודעות",
       "language": "שפה",
-      "listings": "My listings",
+      "listings": "המודעות שלי",
       "login": "כניסה",
       "logout": "התנתק",
-      "manage_listings": "נהל חשבון",
+      "manage_listings": "המודעות שלי",
       "menu": "תפריט",
       "more": "עוד",
       "profile": "החשבון שלי",
@@ -204,8 +204,8 @@
       "user": "משתמש"
     },
     "utils": {
-      "km": "km",
-      "mi": "mi"
+      "km": "ק''מ",
+      "mi": "מייל"
     }
   }
 };

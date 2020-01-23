@@ -163,7 +163,7 @@
       "pricing_units": {
         "day": "day",
         "hour": "hour",
-        "month": "month",
+        "month": "месец",
         "night": "night",
         "piece": "piece",
         "week": "week"
@@ -191,7 +191,7 @@
       "inbox": "Inbox",
       "language": "Language",
       "listings": "Моите обяви",
-      "login": "Log in",
+      "login": "Вход",
       "logout": "Log out",
       "manage_listings": "My listings",
       "menu": "Menu",
@@ -200,7 +200,7 @@
       "search_location_placeholder": "Location",
       "search_placeholder": "Search...",
       "settings": "Settings",
-      "signup": "Sign up",
+      "signup": "Регистрирай се",
       "user": "User"
     },
     "utils": {

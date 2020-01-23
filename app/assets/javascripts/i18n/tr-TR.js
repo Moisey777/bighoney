@@ -145,14 +145,14 @@
       "no_picture": "No picture"
     },
     "listings": {
-      "confirm_discarding_unsaved_availability_changes_explanation": "You have unsaved changes to your availability information. If you proceed, these changes will be lost.",
-      "confirm_discarding_unsaved_availability_changes_question": "Are you sure you want to discard your changes?",
-      "edit_availability_header": "Availability",
-      "edit_listing_availability": "Edit listing availability",
+      "confirm_discarding_unsaved_availability_changes_explanation": "Uygunluk bilgilerinizde kaydedilmemiş değişiklikleriniz var. Devam ederseniz, bu değişiklikler kaybolacak.",
+      "confirm_discarding_unsaved_availability_changes_question": "Yaptığınız değişiklikleri silmek istediğinizden emin misiniz?",
+      "edit_availability_header": "Uygunluk",
+      "edit_listing_availability": "İlan uygunluğunu düzenle",
       "errors": {
         "availability": {
-          "saving_failed": "We're not able to save availability changes. Try to reload the page.",
-          "something_went_wrong": "We're not able to display availability information. Try to reload the page."
+          "saving_failed": "Uygunluk değişikliklerini kaydedemiyoruz. Sayfayı yeniden yüklemeyi deneyin.",
+          "something_went_wrong": "Uygunluk bilgilerini görüntüleyemiyoruz. Sayfayı yeniden yüklemeyi deneyin."
         },
         "working_hours": {
           "covers": "covers",
@@ -188,12 +188,12 @@
     },
     "topbar": {
       "admin_dashboard": "Yönetim paneli",
-      "inbox": "Gelen Kutusu",
+      "inbox": "Gelen posta",
       "language": "Dil",
-      "listings": "My listings",
+      "listings": "İlanlarım",
       "login": "Giriş yap",
       "logout": "Çıkış yap",
-      "manage_listings": "Listelerim",
+      "manage_listings": "İlanlarım",
       "menu": "Menü",
       "more": "Menü",
       "profile": "Profil",

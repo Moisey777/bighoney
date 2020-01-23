@@ -147,7 +147,7 @@
     "listings": {
       "confirm_discarding_unsaved_availability_changes_explanation": "Du har ulagrede endringer i tilgjengelighets-informasjonen. Hvis du fortsetter, vil disse endringene gå tapt.",
       "confirm_discarding_unsaved_availability_changes_question": "Er du sikker på at du vil forkaste endringene dine?",
-      "edit_availability_header": "Availability",
+      "edit_availability_header": "Tilgjengelighet",
       "edit_listing_availability": "Endre annonse-tilgjengelighet",
       "errors": {
         "availability": {

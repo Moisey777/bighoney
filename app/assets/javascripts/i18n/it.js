@@ -179,7 +179,7 @@
       }
     },
     "no_listings": {
-      "sorry": "Purtroppo non si trovano inserzioni per i tuoi criteri di ricerca.",
+      "sorry": "Ci dispiace, ma purtroppo non ci sono inserzioni per i tuoi criteri di ricerca.",
       "try_other_search_terms": "Prova con altri termini di ricerca."
     },
     "search": {
@@ -190,10 +190,10 @@
       "admin_dashboard": "Admin panel",
       "inbox": "Messaggi",
       "language": "Lingua",
-      "listings": "My listings",
+      "listings": "Inserzioni",
       "login": "Log in",
       "logout": "Esci",
-      "manage_listings": "Gestione annunci",
+      "manage_listings": "Inserzioni",
       "menu": "Menù",
       "more": "Altro..",
       "profile": "Profilo",

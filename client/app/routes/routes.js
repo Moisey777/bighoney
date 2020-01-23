@@ -481,6 +481,39 @@ Based on Rails routes of Kassi::Application
 // admin => (/:locale)/admin(.:format)
   // function(options)
   admin_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]),
+// admin2_dashboard_index => (/:locale)/admin2/dashboard(.:format)
+  // function(options)
+  admin2_dashboard_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"dashboard",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]),
+// admin2_design_cover_photos => (/:locale)/admin2/design/cover-photos(.:format)
+  // function(options)
+  admin2_design_cover_photos_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"cover-photos",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_design_display_index => (/:locale)/admin2/design/display(.:format)
+  // function(options)
+  admin2_design_display_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"display",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_design_experimental_index => (/:locale)/admin2/design/experimental(.:format)
+  // function(options)
+  admin2_design_experimental_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"experimental",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_design_landing_page_index => (/:locale)/admin2/design/landing-page(.:format)
+  // function(options)
+  admin2_design_landing_page_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"landing-page",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_design_logos_color_index => (/:locale)/admin2/design/logos-and-color(.:format)
+  // function(options)
+  admin2_design_logos_color_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"logos-and-color",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_general_admin_notifications => (/:locale)/admin2/general/admin-notifications(.:format)
+  // function(options)
+  admin2_general_admin_notifications_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"admin-notifications",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_general_essentials => (/:locale)/admin2/general/essentials(.:format)
+  // function(options)
+  admin2_general_essentials_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"essentials",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_general_privacy_index => (/:locale)/admin2/general/privacy(.:format)
+  // function(options)
+  admin2_general_privacy_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"privacy",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_general_static_content_index => (/:locale)/admin2/general/static-content(.:format)
+  // function(options)
+  admin2_general_static_content_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"static-content",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// admin2_users_signup_login_index => (/:locale)/admin2/users/signup-and-login(.:format)
+  // function(options)
+  admin2_users_signup_login_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"users",false],[2,[7,"/",false],[2,[6,"signup-and-login",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
 // admin_categories => (/:locale)/admin/categories(.:format)
   // function(options)
   admin_categories_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"categories",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]),
@@ -532,6 +565,9 @@ Based on Rails routes of Kassi::Application
 // admin_community_testimonials => (/:locale)/admin/communities/:community_id/testimonials(.:format)
   // function(community_id, options)
   admin_community_testimonials_path: Utils.route([["locale",false],["community_id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"testimonials",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// admin_community_transaction => (/:locale)/admin/communities/:community_id/transactions/:id(.:format)
+  // function(community_id, id, options)
+  admin_community_transaction_path: Utils.route([["locale",false],["community_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"transactions",false],[2,[7,"/",false],[2,[3,"id",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]]]),
 // admin_community_transactions => (/:locale)/admin/communities/:community_id/transactions(.:format)
   // function(community_id, options)
   admin_community_transactions_path: Utils.route([["locale",false],["community_id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"transactions",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
@@ -673,6 +709,9 @@ Based on Rails routes of Kassi::Application
 // browse_listings => (/:locale)/listings/browse(.:format)
   // function(options)
   browse_listings_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"listings",false],[2,[7,"/",false],[2,[6,"browse",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]),
+// cancel_admin_community_transaction => (/:locale)/admin/communities/:community_id/transactions/:id/cancel(.:format)
+  // function(community_id, id, options)
+  cancel_admin_community_transaction_path: Utils.route([["locale",false],["community_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"transactions",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"cancel",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]]]]]),
 // cancel_paypal_service_checkout_orders => (/:locale)/paypal_service/checkout_orders/cancel(.:format)
   // function(options)
   cancel_paypal_service_checkout_orders_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"paypal_service",false],[2,[7,"/",false],[2,[6,"checkout_orders",false],[2,[7,"/",false],[2,[6,"cancel",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
@@ -700,6 +739,9 @@ Based on Rails routes of Kassi::Application
 // check_invitation_code_people => (/:locale)/people/check_invitation_code(.:format)
   // function(options)
   check_invitation_code_people_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"people",false],[2,[7,"/",false],[2,[6,"check_invitation_code",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]),
+// check_username_availability_person => (/:locale)/people/:id/check_username_availability(.:format)
+  // function(id, options)
+  check_username_availability_person_path: Utils.route([["locale",false],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"people",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"check_username_availability",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
 // close_listings_admin_listing_shape => (/:locale)/admin/listing_shapes/:id/close_listings(.:format)
   // function(id, options)
   close_listings_admin_listing_shape_path: Utils.route([["locale",false],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"listing_shapes",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"close_listings",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
@@ -724,6 +766,9 @@ Based on Rails routes of Kassi::Application
 // community_not_found => /community_not_found(.:format)
   // function(options)
   community_not_found_path: Utils.route([["format",false]], {}, [2,[7,"/",false],[2,[6,"community_not_found",false],[1,[2,[8,".",false],[3,"format",false]],false]]]),
+// confirm_admin_community_transaction => (/:locale)/admin/communities/:community_id/transactions/:id/confirm(.:format)
+  // function(community_id, id, options)
+  confirm_admin_community_transaction_path: Utils.route([["locale",false],["community_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"transactions",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"confirm",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]]]]]),
 // confirm_person_message => (/:locale)/:person_id/messages/:id/confirm(.:format)
   // function(person_id, id, options)
   confirm_person_message_path: Utils.route([["locale",false],["person_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[3,"person_id",false],[2,[7,"/",false],[2,[6,"messages",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"confirm",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
@@ -772,6 +817,9 @@ Based on Rails routes of Kassi::Application
 // disable_admin_payment_preference => (/:locale)/admin/payment_preferences/:payment_gateway/disable(.:format)
   // function(payment_gateway, options)
   disable_admin_payment_preference_path: Utils.route([["locale",false],["payment_gateway",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"payment_preferences",false],[2,[7,"/",false],[2,[3,"payment_gateway",false],[2,[7,"/",false],[2,[6,"disable",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// dismiss_admin_community_transaction => (/:locale)/admin/communities/:community_id/transactions/:id/dismiss(.:format)
+  // function(community_id, id, options)
+  dismiss_admin_community_transaction_path: Utils.route([["locale",false],["community_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"transactions",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"dismiss",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]]]]]),
 // edit_admin_category => (/:locale)/admin/categories/:id/edit(.:format)
   // function(id, options)
   edit_admin_category_path: Utils.route([["locale",false],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"categories",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"edit",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
@@ -1402,6 +1450,9 @@ Based on Rails routes of Kassi::Application
 // received_person_messages => (/:locale)/:person_id/messages/received(.:format)
   // function(person_id, options)
   received_person_messages_path: Utils.route([["locale",false],["person_id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[3,"person_id",false],[2,[7,"/",false],[2,[6,"messages",false],[2,[7,"/",false],[2,[6,"received",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// refund_admin_community_transaction => (/:locale)/admin/communities/:community_id/transactions/:id/refund(.:format)
+  // function(community_id, id, options)
+  refund_admin_community_transaction_path: Utils.route([["locale",false],["community_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"transactions",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"refund",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]]]]]),
 // reject_admin_community_listing => (/:locale)/admin/communities/:community_id/listings/:id/reject(.:format)
   // function(community_id, id, options)
   reject_admin_community_listing_path: Utils.route([["locale",false],["community_id",true],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"community_id",false],[2,[7,"/",false],[2,[6,"listings",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"reject",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]]]]]),
@@ -1504,6 +1555,9 @@ Based on Rails routes of Kassi::Application
 // transaction_op_status => (/:locale)/transactions/transaction_op_status/:process_token(.:format)
   // function(process_token, options)
   transaction_op_status_path: Utils.route([["locale",false],["process_token",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"transactions",false],[2,[7,"/",false],[2,[6,"transaction_op_status",false],[2,[7,"/",false],[2,[3,"process_token",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// transactions_person_settings => (/:locale)/:person_id/settings/transactions(.:format)
+  // function(person_id, options)
+  transactions_person_settings_path: Utils.route([["locale",false],["person_id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[3,"person_id",false],[2,[7,"/",false],[2,[6,"settings",false],[2,[7,"/",false],[2,[6,"transactions",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
 // ui_api_topbar_props => /ui_api/topbar_props(.:format)
   // function(options)
   ui_api_topbar_props_path: Utils.route([["format",false]], {}, [2,[7,"/",false],[2,[6,"ui_api",false],[2,[7,"/",false],[2,[6,"topbar_props",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]),
@@ -1522,27 +1576,51 @@ Based on Rails routes of Kassi::Application
 // unsubscribe_person_settings => (/:locale)/:person_id/settings/unsubscribe(.:format)
   // function(person_id, options)
   unsubscribe_person_settings_path: Utils.route([["locale",false],["person_id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[3,"person_id",false],[2,[7,"/",false],[2,[6,"settings",false],[2,[7,"/",false],[2,[6,"unsubscribe",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// update_admin_notifications_admin2_general_admin_notifications => (/:locale)/admin2/general/admin-notifications/update_admin_notifications(.:format)
+  // function(options)
+  update_admin_notifications_admin2_general_admin_notifications_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"admin-notifications",false],[2,[7,"/",false],[2,[6,"update_admin_notifications",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// update_cover_photos_admin2_design_cover_photos => (/:locale)/admin2/design/cover-photos/update_cover_photos(.:format)
+  // function(options)
+  update_cover_photos_admin2_design_cover_photos_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"cover-photos",false],[2,[7,"/",false],[2,[6,"update_cover_photos",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
 // update_details_admin_community => (/:locale)/admin/communities/:id/update_details(.:format)
   // function(id, options)
   update_details_admin_community_path: Utils.route([["locale",false],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"update_details",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// update_display_admin2_design_display_index => (/:locale)/admin2/design/display/update_display(.:format)
+  // function(options)
+  update_display_admin2_design_display_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"display",false],[2,[7,"/",false],[2,[6,"update_display",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// update_essential_admin2_general_essentials => (/:locale)/admin2/general/essentials/update_essential(.:format)
+  // function(options)
+  update_essential_admin2_general_essentials_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"essentials",false],[2,[7,"/",false],[2,[6,"update_essential",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// update_experimental_admin2_design_experimental_index => (/:locale)/admin2/design/experimental/update_experimental(.:format)
+  // function(options)
+  update_experimental_admin2_design_experimental_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"experimental",false],[2,[7,"/",false],[2,[6,"update_experimental",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
 // update_expiration_admin_custom_fields => (/:locale)/admin/custom_fields/update_expiration(.:format)
   // function(options)
   update_expiration_admin_custom_fields_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"custom_fields",false],[2,[7,"/",false],[2,[6,"update_expiration",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
 // update_location_admin_custom_fields => (/:locale)/admin/custom_fields/update_location(.:format)
   // function(options)
   update_location_admin_custom_fields_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"custom_fields",false],[2,[7,"/",false],[2,[6,"update_location",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// update_logos_color_admin2_design_logos_color_index => (/:locale)/admin2/design/logos-and-color/update_logos_color(.:format)
+  // function(options)
+  update_logos_color_admin2_design_logos_color_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"design",false],[2,[7,"/",false],[2,[6,"logos-and-color",false],[2,[7,"/",false],[2,[6,"update_logos_color",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
 // update_person_payment_settings => (/:locale)/:person_id/settings/payments(.:format)
   // function(person_id, options)
   update_person_payment_settings_path: Utils.route([["locale",false],["person_id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[3,"person_id",false],[2,[7,"/",false],[2,[6,"settings",false],[2,[7,"/",false],[2,[6,"payments",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
 // update_price_admin_custom_fields => (/:locale)/admin/custom_fields/update_price(.:format)
   // function(options)
   update_price_admin_custom_fields_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"custom_fields",false],[2,[7,"/",false],[2,[6,"update_price",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),
+// update_privacy_admin2_general_privacy_index => (/:locale)/admin2/general/privacy/update_privacy(.:format)
+  // function(options)
+  update_privacy_admin2_general_privacy_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"general",false],[2,[7,"/",false],[2,[6,"privacy",false],[2,[7,"/",false],[2,[6,"update_privacy",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
 // update_rails_disk_service => /rails/active_storage/disk/:encoded_token(.:format)
   // function(encoded_token, options)
   update_rails_disk_service_path: Utils.route([["encoded_token",true],["format",false]], {}, [2,[7,"/",false],[2,[6,"rails",false],[2,[7,"/",false],[2,[6,"active_storage",false],[2,[7,"/",false],[2,[6,"disk",false],[2,[7,"/",false],[2,[3,"encoded_token",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]),
 // update_settings_admin_community => (/:locale)/admin/communities/:id/update_settings(.:format)
   // function(id, options)
   update_settings_admin_community_path: Utils.route([["locale",false],["id",true],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"update_settings",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
+// update_signup_login_admin2_users_signup_login_index => (/:locale)/admin2/users/signup-and-login/update_signup_login(.:format)
+  // function(options)
+  update_signup_login_admin2_users_signup_login_index_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin2",false],[2,[7,"/",false],[2,[6,"users",false],[2,[7,"/",false],[2,[6,"signup-and-login",false],[2,[7,"/",false],[2,[6,"update_signup_login",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]]),
 // update_stripe_keys_admin_payment_preferences => (/:locale)/admin/payment_preferences/update_stripe_keys(.:format)
   // function(options)
   update_stripe_keys_admin_payment_preferences_path: Utils.route([["locale",false],["format",false]], {}, [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"payment_preferences",false],[2,[7,"/",false],[2,[6,"update_stripe_keys",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]),

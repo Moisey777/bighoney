@@ -137,7 +137,7 @@
     },
     "branding": {
       "create_own": "Want to create your own online marketplace website like %{service_name}? %{learn_more}.",
-      "learn_more": "Learn more",
+      "learn_more": "Sužinoti daugiau",
       "powered_by": "%{service_name} is powered by the %{sharetribe_link} marketplace platform."
     },
     "listing_card": {
@@ -148,7 +148,7 @@
       "confirm_discarding_unsaved_availability_changes_explanation": "You have unsaved changes to your availability information. If you proceed, these changes will be lost.",
       "confirm_discarding_unsaved_availability_changes_question": "Are you sure you want to discard your changes?",
       "edit_availability_header": "Availability",
-      "edit_listing_availability": "Edit listing availability",
+      "edit_listing_availability": "Redaguoti skelbimo laiką",
       "errors": {
         "availability": {
           "saving_failed": "We're not able to save availability changes. Try to reload the page.",
@@ -172,10 +172,10 @@
       "working_hours": {
         "add_another_time_slot": "+ Pridėti kitą laiko tarpą",
         "default_schedule": "Default schedule",
-        "end_time": "End time",
+        "end_time": "Pabaigos laikas",
         "i_am_available_on": "I'm available on...",
         "save": "Save",
-        "start_time": "Start time"
+        "start_time": "Pradžios laikas"
       }
     },
     "no_listings": {
@@ -188,19 +188,19 @@
     },
     "topbar": {
       "admin_dashboard": "Admin panel",
-      "inbox": "Inbox",
+      "inbox": "Pašto dėžutė",
       "language": "Language",
-      "listings": "My listings",
-      "login": "Log in",
-      "logout": "Log out",
-      "manage_listings": "My listings",
+      "listings": "Mano skelbimai",
+      "login": "Prisijungti",
+      "logout": "Atsijungti",
+      "manage_listings": "Mano skelbimai",
       "menu": "Menu",
-      "more": "More",
-      "profile": "Profile",
+      "more": "Daugiau",
+      "profile": "Profilis",
       "search_location_placeholder": "Location",
       "search_placeholder": "Search...",
-      "settings": "Settings",
-      "signup": "Sign up",
+      "settings": "Nustatymai",
+      "signup": "Registruotis",
       "user": "User"
     },
     "utils": {

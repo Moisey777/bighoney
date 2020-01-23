@@ -197,7 +197,7 @@
       "menu": "Menü",
       "more": "Mehr",
       "profile": "Profil",
-      "search_location_placeholder": "Ort",
+      "search_location_placeholder": "Standort",
       "search_placeholder": "Suche ...",
       "settings": "Einstellungen",
       "signup": "Registrieren",
